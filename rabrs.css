@@ -53,14 +53,21 @@ header table {
 
 /* Menu */
 #l1, #l2, #l3 {
-    height: 8px;
+    height: 3px;
     background-color: white;
     width: 40%;
-    margin: 0 auto 10px;
+    margin: 0 auto 4px;
 }
 #bouton_RD {
     padding: 25px 0px;
-    background-color: black;
+    background-color: #e3b802;
+    cursor: pointer;
+}
+
+#block_RD {
+    width: 13.75%;
+    margin: 12px auto 11px;
+    background-color:#e3b802;
 }
 
 nav {
