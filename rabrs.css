@@ -22,6 +22,7 @@
         width: 100% !important;
         display: block !important;
         padding: 0 !important;
+        box-shadow: 3px 2px 8px black !important;
     }
 
     .navigation li a {
