@@ -1,5 +1,5 @@
 /* Pour les petites tablettes et téléphone */
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     body {
         margin: 0 !important;
     }
