@@ -1,3 +1,39 @@
+/* Pour les petites tablettes et téléphone */
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0 !important;
+    }
+
+    header table td {
+        display: block !important;
+    }
+
+    header table {
+        border: none !important;
+    }
+
+    #photo {
+        width: 100% !important;
+        height: auto !important;
+        border: none !important;
+    }
+
+    .navigation li {
+        width: 100% !important;
+        display: block !important;
+    }
+
+    main {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    footer {
+        position: static !important;
+        height: 0px !important;
+    }
+}
+
 #photo {
     width: auto;
     height: 300px;
@@ -10,7 +46,21 @@
 
 header table {
     margin: auto;
-    border: 3px solid #f1d12e;
+    border-top: 3px solid #f1d12e;
+    border-right: 3px solid #f1d12e;
+    border-left: 3px solid #f1d12e;
+}
+
+/* Menu */
+#l1, #l2, #l3 {
+    height: 8px;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto 10px;
+}
+#bouton_RD {
+    padding: 25px 0px;
+    background-color: black;
 }
 
 nav {
@@ -19,9 +69,36 @@ nav {
     margin-left: auto;
 }
 
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font: 11px "Trebuchet MS", sans-serif;
+}
+
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+    text-decoration: underline;
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: #000;
+
+}
+
+.navigation li a {
+    background: none;
+    padding: 3px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: #e3b802;
+    border-radius: 20px;
+}
+
 nav ul {
     padding: 0;
     background-color: #f1d12e;
+    box-shadow: 3px 2px 8px black;
 }
 
 nav ul li {
