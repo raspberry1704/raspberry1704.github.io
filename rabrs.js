@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    $(".dropdown-menu").hide();
     /*
     $("#bouton_RD").click( function(){
         if( $(".navigation").hasClass("dropdown-toggle") ) {

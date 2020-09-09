@@ -45,6 +45,17 @@
         box-shadow: none !important;
     }
 
+    .dropdown-menu li {
+        border-bottom: 1px solid #f1d12e;
+    }
+
+    .show {
+        position: static !important;
+        display: block !important;
+        transform: none !important;
+        text-align: center !important;
+    }
+
     main {
         margin-left: 15px !important;
         margin-right: 15px !important;
