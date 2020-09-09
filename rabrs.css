@@ -31,6 +31,20 @@
         text-transform: uppercase !important;
     }
 
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+
+    .dropdown-menu.show {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .dropdown-menu, .dropdown-menu li {
+        box-shadow: none !important;
+    }
+
     main {
         margin-left: 15px !important;
         margin-right: 15px !important;

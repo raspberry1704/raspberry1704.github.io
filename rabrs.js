@@ -1,15 +1,15 @@
 $(document).ready(function() {
-    $(".navigation").hide();
 
+    /*
     $("#bouton_RD").click( function(){
-        if( $(".navigation").hasClass("drop-down") ) {
-            $(".navigation").hide();
-            $(".navigation").addClass("up");
-            $(".navigation").removeClass("drop-down");
-        } else {
+        if( $(".navigation").hasClass("dropdown-toggle") ) {
             $(".navigation").show();
-            $(".navigation").addClass("drop-down");
+            $(".navigation").removeClass("dropdown-toggle");
+        } else {
+            $(".navigation").dropdown();
+            $(".navigation").addClass("dropdown-toggle");
             $(".navigation").removeClass("up");
         }
     });
+    */
 });
