@@ -67,6 +67,31 @@
     }
 }
 
+@media (min-width: 801px) {
+    #bouton_RD {
+        display: none !important;
+    }
+
+    .dropdown {
+        overflow: auto !important;
+    }
+
+    main {
+        padding: 30px 0;
+    }
+
+    .dropdown-menu {
+        position: static !important;
+        width: 100% !important;
+        text-align: center !important;
+        background-color: #f1d12e !important;
+    }
+    footer {
+        position: static !important;
+        height: 0px !important;
+    }
+}
+
 #photo {
     width: auto;
     height: 300px;
