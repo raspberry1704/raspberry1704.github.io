@@ -59,6 +59,7 @@
     main {
         margin-left: 15px !important;
         margin-right: 15px !important;
+        margin-top: 20px !important;
     }
 
     footer {
@@ -86,11 +87,24 @@
         text-align: center !important;
         background-color: #f1d12e !important;
     }
+
+    table {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
     footer {
         position: static !important;
         height: 0px !important;
     }
 }
+
+/* Main chart */
+h1 {
+
+}
+
+/* Header */
 
 #photo {
     width: auto;
